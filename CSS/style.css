@@ -36,6 +36,8 @@ border: none;
 }
 
 
+
+
 #hero {
     width: 100%;
     height: 100vh;
@@ -66,6 +68,10 @@ border: none;
 .jumbotron h1 {
    font-weight: 700;
    font-family: 'Inter';
+}
+
+.textbright {
+  color: #FF643B;
 }
 
 
@@ -160,4 +166,32 @@ border: none;
     color: #9f9f9f;
     padding-bottom: 2%;
   }
+
+  
+
+
+  #newsletter {
+    width: 100%;
+
+}
+
+#heromembership {
+  width: 100%;
+  height: 100vh;
+  background: url(/images/pedro-araujo-PDjYClxmnyk-unsplash\ 1.png) no-repeat center / cover;
+  color: #B6B6B6
+}
+
+.jumbotron1 {
+  
+  margin: 0;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 2px 2%;
+}
+
+.jumbotron1 h1 {
+ font-weight: 700;
+ font-family: 'Inter';
+}
 
