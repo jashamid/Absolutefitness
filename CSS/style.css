@@ -102,6 +102,7 @@ border: none;
 .card-img-amenities{
     width: 335%;
     margin-left: -17%; 
+    margin-top: 6%;
 }
 
   .hotspot {
@@ -114,7 +115,8 @@ border: none;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
-    font-family: sans-serif;
+    font-family: 'Inter';
+    font-size: 45px;
     color: white;
   }
 
@@ -129,4 +131,18 @@ border: none;
   #hs-Swimming {
     top: 147%;
     left: 72%;
+  }
+
+  .display-6{
+    font-family: 'Inter';
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .display-6-text-white {
+    font-family: 'Inter';
+    font-size: 50px;
+    font-weight: bold;
+    color: #9f9f9f;
+    padding-bottom: 2%;
   }
