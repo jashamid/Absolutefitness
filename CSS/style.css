@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-siding: border-box;
+}
+
+body {
+    font-family: 'Inter';
+    font: size 18px;
+}
+
+.text-primary {
+    color: #FF643B;
+}
+.btn-primary {
+    color: black;
+background-color: #FF643B;
+border: none;
+}
+
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #FF643B;
+    background-color: #ffff;
+}
+
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url(/images/Home_Page_BG_IMG\ 1.png) no-repeat center / cover;
+    color: #B6B6B6
+}
+
+.container {
+    align-items: top;
+    justify-content: left;
+    padding: 2% 2%;
+
+}
+
+.jumbotron {
+    width: 90%;
+    height: 100%
+  }
+ 
+.jumbotron {
+    max-width: 800px;
+    margin: 0;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px 5%;
+}
+
+.jumbotron h1 {
+   font-weight: 700;
+   font-family: 'Inter';
+}
+
+
+
+#Amenities {
+    width: 100%;
+}
+
+.container2 {
+    background-color: #FF643B;
+    justify-content: flex-end;
+    padding: 3%;
+}
+
+.card-img-overlay {
+    background-color: rgba(#000, 0.6);
+  }
+  
+.container3 {
+    background-color: #000;
+    justify-content: flex-end;
+    padding: 3%;
+}
