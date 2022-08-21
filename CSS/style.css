@@ -80,3 +80,55 @@ border: none;
     justify-content: flex-end;
     padding: 3%;
 }
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solidrgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    background-color: #FF643B;
+}
+
+.card-img-amenities{
+    width: 335%;
+    margin-left: -17%; 
+}
+
+  .hotspot {
+    position: absolute;
+    height: 24px;
+    padding-top: 6px;
+    border-radius: 50%;
+    animation: fader 2s ease infinite;
+    transition: all 0.2s;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+  }
+
+  #hs-danceStudio {
+    top: 147%;
+    left: 5%;
+  }
+  #hs-Equipment {
+    top: 147%;
+    left: 40%;
+  }
+  #hs-Swimming {
+    top: 147%;
+    left: 72%;
+  }
+
+  area {border: 1px solid red}
