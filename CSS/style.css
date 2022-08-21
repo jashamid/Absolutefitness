@@ -20,6 +20,15 @@ background-color: #FF643B;
 border: none;
 }
 
+.btn-light {
+  color: white;
+  background-color: #212529;
+  border: none;
+}
+
+.btn-link {
+  color: #FF643B;
+}
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
     color: #FF643B;
@@ -68,7 +77,12 @@ border: none;
 .container2 {
     background-color: #FF643B;
     justify-content: flex-end;
-    padding: 3%;
+    padding-top:25px;
+}
+
+.container2 h2{
+  font-weight: 700;
+  
 }
 
 .card-img-overlay {
@@ -146,3 +160,4 @@ border: none;
     color: #9f9f9f;
     padding-bottom: 2%;
   }
+
