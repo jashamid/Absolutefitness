@@ -52,8 +52,13 @@ body {
 #hero {
     width: 100%;
     height: 100vh;
-    background: url(/images/Home_Page_BG_IMG\ 1.png) no-repeat center / cover;
     color: #B6B6B6
+}
+
+.heroImage{
+  width: 100%;
+  color: #B6B6B6;
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -319,4 +324,27 @@ input[type=text] {
 
 input[type=text]:focus {
   border: 5px solid white;
+}
+
+.containerHeroImage{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  width: 70%;
+  position: absolute;
+  left: 35%;
+  transform: translate(-40%, -1200%);
+  text-align: justify;
+}
+
+.centered-hero-text{
+  width: 70%;
+  position: absolute;
+  left: 35%;
+  transform: translate(-40%, -3250%);
+  text-align: justify;
 }
