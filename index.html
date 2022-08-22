@@ -15,8 +15,8 @@
     <div>
         <nav class="navbar navbar-expand-lg navbar-light navbar navbar-dark bg-dark">
             <div class="container-fluid">
-                <a href="#" class="navbar-brand">
-                    <img src="./images/cropped-af-logo 1.png" height="28" alt="Absolute Fitness">
+                <a href="index.html" class="navbar-brand">
+                    <img src="./images/cropped-af-logo 1.png" height="45" alt="Absolute Fitness">
                 </a>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
@@ -24,11 +24,7 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse" >
                     <div class="navbar-nav">
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">MEMBERSHIP</a>
-                            <div class="dropdown-menu">
-                                <a href="#" class="dropdown-item">Join/ Membership Plans</a>
-                                <a href="#" class="dropdown-item">Specials</a>
-                            </div>
+                            <a href="membership.html" class="nav-link">MEMBERSHIP</a>
                         </div>
                        <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">TRAINING</a>
@@ -69,13 +65,6 @@
                                 <a href="#" class="dropdown-item">Tanning</a>
                             </div>
                         </div>
-                      <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">CONTACT US</a>
-                            <div class="dropdown-menu">
-                                <a href="#" class="dropdown-item">Dougall</a>
-                                <a href="#" class="dropdown-item">Roseville</a>
-                            </div>
-                        </div>
         
                         <a href="#" class="navbar-brand">
                             <img src="./images/image 2.png" height="20" alt="Absolute Fitness">
@@ -84,10 +73,43 @@
                             <span class="navbar-toggler-icon"></span>
                         </button>
 
-                      <div class="nav-item">
-                        <button class="btn btn-primary my-2 my-sm-0" type="submit">JOIN NOW</button>
-                        <button class="btn btn-light my-2 my-sm-0" type="submit">LOG IN</button>
+                      <div class="nav-item-align-right">
+                        <button class="btn btn-primary my-2 my-sm-0" type="submit" onclick="location.href = 'membership.html';">JOIN NOW</button>
+                        <button class="btn btn-light my-2 my-sm-0" type="submit" data-bs-toggle="modal" data-bs-target="#myModal" >LOG IN</button>
                       </div> 
+
+                    <!-- -------------MODAL PAGE CODE STARTS HERE------------- -->
+                      <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content" style="background-color: black;">
+                          <div class="modal-header text-center">
+                            <h4 class="modalHeader">Sign in</h4>
+                            <button id='closeModal' type="button" class="btn btn-primary my-2 my-sm-0" data-bs-dismiss="modal">x</button>
+                          </div>
+                          <div class="modal-body mx-3" style="padding-top: 60px;">
+                            <div class="md-form mb-5">
+                              <i class="fas fa-envelope prefix grey-text"></i>
+                              <input type="email" id="defaultForm-email" class="form-control validate">
+                              <label data-error="wrong" data-success="right" for="defaultForm-email" class="modalTextFormat">Your email</label>
+                            </div>
+                    
+                            <div class="md-form mb-4">
+                              <i class="fas fa-lock prefix grey-text"></i>
+                              <input type="password" id="defaultForm-pass" class="form-control validate">
+                              <label data-error="wrong" data-success="right" for="defaultForm-pass" class="modalTextFormat">Your password</label>
+                            </div>
+                    
+                          </div>
+                          <div class="modal-footer d-flex justify-content-center">
+                            <button id='closeModal' type="button" class="btn btn-primary my-2 my-sm-0" data-bs-dismiss="modal">Login</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- -------------MODAL PAGE CODE ENDS HERE------------- -->
+
                     </div>
                     </div>
                   
@@ -103,7 +125,7 @@
                 <hr class="my-4">
                 <p>Our professional, skilled personal trainers can whip you into shape and our friendly, helpful staff are here to keep an eye on you during your workouts.</p>
                 <p class="lead">
-                  <a class="btn btn-primary btn-lg" href="#" role="button">Join Now</a>
+                  <a class="btn btn-primary btn-lg" href="membership.html" role="button">Join Now</a>
                 </p>
              </div>
         </div>
@@ -262,7 +284,7 @@
                class="text-center p-3"
                style="background-color: rgba(0, 0, 0, 0.2)"
                >
-            © 2020 Absolute Fitness:
+            © 2022 Absolute Fitness
             
           </div>
           <!-- Copyright -->

@@ -180,8 +180,6 @@ body {
     padding-bottom: 2%;
   }
 
-  
-
 
   #newsletter {
     width: 100%;
@@ -271,4 +269,54 @@ section.pricing {
   .pricing .card:hover .btn {
     opacity: 1;
   }
+}
+
+.nav-item {
+  margin-left: 50px;
+  padding-right: 25px;
+}
+
+.navbar-brand{
+  margin-left: 50px;
+  padding-right: 25px;
+}
+
+.nav-item-align-right{
+  margin-left: 200px;
+}
+
+.bg-dark {
+  background-color: black!important;
+  height: 90px;
+}
+
+.modalTextFormat{
+  font-family: 'Inter';
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  padding: 2%;
+}
+
+.modalHeader{
+  font-family: 'Inter';
+  font-weight: bold;
+  font-size: 35px;
+  color: white;
+  margin-left: 35%;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 5px solid white;
 }
