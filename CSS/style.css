@@ -331,14 +331,14 @@ input[type=text]:focus {
   border: 5px solid white;
 }
 
-.containerHeroImage{
+/* .containerHeroImage{
   position: relative;
   text-align: center;
   color: white;
-}
+} */
 
 /* Centered text */
-.centered {
+/* .centered {
   width: 70%;
   position: absolute;
   left: 35%;
@@ -352,4 +352,4 @@ input[type=text]:focus {
   left: 35%;
   transform: translate(-40%, -3250%);
   text-align: justify;
-}
+} */
