@@ -112,12 +112,14 @@ body {
 
 #Amenities {
     width: 100%;
+  
 }
 
 .container2 {
     background-color: #FF643B;
     justify-content: flex-end;
     padding-top:25px;
+    
 }
 
 .container2 h2{
