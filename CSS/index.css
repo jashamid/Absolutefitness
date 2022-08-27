@@ -1,0 +1,179 @@
+body {
+	font-family: 'Inter';
+	font: size 18px;
+  background-color: #FF643B;
+}
+
+.text-primary {
+	color: #FF643B;
+}
+
+.btn-primary {
+	color: black;
+	background-color: #FF643B;
+	border: none;
+}
+
+.btn-light {
+	color: white;
+	background-color: black;
+	border: none;
+}
+
+.btn-link {
+	color: #FF643B;
+	font-weight: 100;
+}
+
+.btn-link:hover {
+	color: #F7F7F7;
+}
+
+.btn- {
+	font-weight: 100;
+	text-decoration: underline;
+}
+
+.btn-:hover {
+	color: white;
+	font-weight: 100;
+	text-decoration: underline;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
+	color: #FF643B;
+	background-color: #ffff;
+}
+
+.hero {
+	background-image: url('../images/Home_Page_BG_IMG\ 1.png');
+	background-size: cover;
+}
+
+.dance-container {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.amenities-container {
+	background-color: #FF643B;
+}
+
+.news-container {
+	background-color: #FF643B;
+}
+
+.trainer-container {
+	background-color: black;
+}
+
+.amenities-container div {
+	display: inline;
+}
+
+.textbright {
+	color: #FF643B;
+}
+
+.bg-dark {
+	background-color: black !important;
+}
+
+.display-6-text-white {
+	font-family: 'Inter';
+	font-size: 45px;
+	font-weight: bold;
+	color: white;
+}
+
+.modalTextFormat {
+	font-family: 'Inter';
+	font-size: 25px;
+	color: white;
+	padding: 2%;
+}
+
+.modalHeader {
+	font-family: 'Inter';
+	font-size: 35px;
+	color: white;
+	margin-left: 35%;
+}
+
+input[type=text] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 3px solid #ccc;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	outline: none;
+}
+
+input[type=text]:focus {
+	border: 5px solid white;
+}
+
+.container2 h2 {
+	font-weight: 700;
+}
+
+.card-img-overlay {
+	background-color: rgba(#000, 0.6);
+}
+
+.container3 {
+	background-color: #000;
+	justify-content: flex-end;
+	padding: 3%;
+}
+
+.container-amenities {
+	background-color: #FF643B;
+	justify-content: flex-end;
+	padding: 3%;
+}
+
+.card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: black;
+	background-clip: border-box;
+	border: 1px solidrgba(0, 0, 0, .125);
+	border-radius: 0.25rem;
+}
+
+.card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	/*background-color: #fff;
+    */
+	background-clip: border-box;
+	border: 1px solidrgba(0, 0, 0, .125);
+	border-radius: 0.25rem;
+}
+
+.card-body {
+	flex: 1 1 auto;
+	padding: 1rem 1rem;
+	background-color: #FF643B;
+}

@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-siding: border-box;
+}
+
+body {
+    font-family: 'Inter';
+    font: size 18px;
+}
+
+.text-primary {
+    color: #FF643B;
+}
+.btn-primary {
+  color: black;
+  background-color: #FF643B;
+  border: none;
+}
+
+.btn-light {
+  color: white;
+  background-color: black;
+  border: none;
+}
+
+.btn-link {
+  color: #FF643B;
+  font-weight: 100;
+
+}
+
+.btn-link:hover {
+  color: #F7F7F7;
+}
+
+
+.btn- {
+  font-weight: 100;
+  text-decoration: underline;
+}
+
+.btn-:hover {
+  color: white;
+  font-weight: 100;
+  text-decoration: underline;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #FF643B;
+    background-color: #ffff;
+}
+
+.container-fluid {
+  background-color: #000;
+}
+
+.dropdown-menu {
+  background-color: #000;
+ 
+}
+
+.dropdown-item {
+  color: white;
+}
+
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    color: #B6B6B6
+}
+
+.heroImage{
+  width: 100%;
+  color: #B6B6B6;
+  background-repeat: no-repeat;
+}
+
+.container {
+    align-items: top;
+    justify-content: left;
+    padding: 2% 2%;
+
+}
+
+.jumbotron {
+    width: 90%;
+    height: 100%
+  }
+ 
+.jumbotron {
+    max-width: 800px;
+    margin: 0;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px 5%;
+}
+
+.jumbotron h1 {
+   font-weight: 700;
+   font-family: 'Inter';
+}
+
+.textbright {
+  color: #FF643B;
+}
+
+
+
+#Amenities {
+    width: 100%;
+  
+}
+
+.container2 {
+    background-color: #FF643B;
+    justify-content: flex-end;
+    padding-top:25px;
+    
+}
+
+.container2 h2{
+  font-weight: 700;
+  
+}
+
+.card-img-overlay {
+    background-color: rgba(#000, 0.6);
+  }
+  
+.container3 {
+    background-color: #000;
+    justify-content: flex-end;
+    padding: 3%;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solidrgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    background-color: #FF643B;
+}
+
+.card-img-amenities{
+    width: 335%;
+    margin-left: -17%; 
+    margin-top: 6%;
+}
+
+  .hotspot {
+    position: absolute;
+    height: 24px;
+    padding-top: 6px;
+    border-radius: 50%;
+    animation: fader 2s ease infinite;
+    transition: all 0.2s;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Inter';
+    font-size: 45px;
+    color: white;
+  }
+
+  .hotspot:hover {
+    color: #fa6400;
+  }
+
+
+  
+  #hs-danceStudio {
+    top: 147%;
+    left: 5%;
+  }
+  #hs-Equipment {
+    top: 147%;
+    left: 40%;
+  }
+  #hs-Swimming {
+    top: 147%;
+    left: 72%;
+  }
+
+  .display-6{
+    margin-left: 3%;
+    font-family: 'Inter';
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .display-6-text-white {
+    font-family: 'Inter';
+    font-size: 50px;
+    font-weight: bold;
+    color: #9f9f9f;
+    padding-bottom: 2%;
+  }
+
+
+
+.titlelink {
+  justify-content: space-between;
+}
+
+
+  #newsletter {
+    width: 100%;
+
+}
+
+.card-img-newsletter{
+  height: 50%;
+}
+
+#heromembership {
+  background: url(/images/pedro-araujo-PDjYClxmnyk-unsplash\ 1.png) no-repeat center / cover;
+  color: #B6B6B6
+}
+
+.jumbotron1 {
+  
+  margin: 0;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 2px 2%;
+}
+
+.jumbotron1 h1 {
+ font-weight: 700;
+ font-family: 'Inter';
+}
+
+section.pricing {
+  width: 100%;
+  height: 120vh;
+  background: url(/images/pedro-araujo-PDjYClxmnyk-unsplash\ 1.png) no-repeat center / cover;
+  
+}
+
+
+/* CSS */
+.button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  display: flex;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: 100%;
+}
+
+.button-5:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+
+
+.button-23:focus-visible {
+  box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+  transition: box-shadow .2s;
+}
+
+.button-23:active {
+  background-color: #F7F7F7;
+  border-color: #000000;
+  transform: scale(.96);
+}
+
+.button-23:disabled {
+  border-color: #DDDDDD;
+  color: #DDDDDD;
+  cursor: not-allowed;
+  opacity: 1;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+
+
+.button-5:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+
+}
+
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 0;
+  font-family: 'Inter';
+  font-weight: bold;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+
+.pricing ul ol {
+  margin-bottom: 1rem;
+  padding-right: 1rem;
+  
+}
+
+
+.pricing .btn {
+  font-size: 80%;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
+
+.imgicon {
+  margin: 10px 10px;
+}
+
+
+.nav-item {
+  margin-left: 50px;
+  padding-right: 25px;
+}
+
+.navbar-brand{
+  margin-left: 50px;
+  padding-right: 25px;
+}
+
+.nav-item-align-right{
+  margin-left: 200px;
+}
+
+.bg-dark {
+  background-color: black!important;
+  height: 90px;
+}
+
+.modalTextFormat{
+  font-family: 'Inter';
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  padding: 2%;
+}
+
+.modalHeader{
+  font-family: 'Inter';
+  font-weight: bold;
+  font-size: 35px;
+  color: white;
+  margin-left: 35%;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 5px solid white;
+}
+
+/* .containerHeroImage{
+  position: relative;
+  text-align: center;
+  color: white;
+} */
+
+/* Centered text */
+/* .centered {
+  width: 70%;
+  position: absolute;
+  left: 35%;
+  transform: translate(-40%, -1200%);
+  text-align: justify;
+}
+
+.centered-hero-text{
+  width: 70%;
+  position: absolute;
+  left: 35%;
+  transform: translate(-40%, -3250%);
+  text-align: justify;
+} */
+
+/* Style all font awesome icons */
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #9F9F9F;
+  color: black;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #9F9F9F;
+  color: black;
+}
