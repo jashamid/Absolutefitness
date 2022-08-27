@@ -82,8 +82,35 @@
                         </button>
                         <div class="nav-item-align-right">
                            <button class="btn btn-primary my-2 my-sm-0" type="submit" onclick="location.href = 'membership.html';">JOIN NOW</button>
-                           <button class="btn btn-light my-2 my-sm-0" type="submit">LOG IN</button>
+                           <button class="btn btn-light my-2 my-sm-0" type="submit" data-bs-toggle="modal"
+                              data-bs-target="#myModal">LOG IN</button>
                         </div>
+                        <!-- -------------MODAL PAGE CODE STARTS HERE------------- -->
+                        <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                           aria-hidden="true">
+                           <div class="modal-dialog" role="document">
+                              <div class="modal-content" style="background-color: black;">
+                                 <div class="modal-header text-center">
+                                    <h4 class="modalHeader">SIGN IN</h4>
+                                    <button id='closeModal' type="button" class="btn btn-primary my-2 my-sm-0"
+                                       data-bs-dismiss="modal">   x   </button>
+                                 </div>
+                                 <div class="modal-body mx-3" style="padding-top: 60px;">
+                                    <div class="md-form mb-5">
+                                       <input type="email" id="defaultForm-email" class="form-control validate" placeholder="Email">
+                                    </div>
+                                    <div class="md-form mb-4">
+                                       <input type="password" id="defaultForm-pass" class="form-control validate" placeholder="Password">
+                                    </div>
+                                 </div>
+                                 <div class="modal-footer d-flex justify-content-center">
+                                    <button id='closeModal' type="button" class="btn btn-primary my-2 my-sm-0"
+                                       data-bs-dismiss="modal">Login</button>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- -------------MODAL PAGE CODE ENDS HERE------------- -->
                      </div>
                   </div>
                </div>
