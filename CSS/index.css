@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 body {
 	font-family: 'Inter';
 	font: size 18px;
@@ -176,4 +178,9 @@ input[type=text]:focus {
 	flex: 1 1 auto;
 	padding: 1rem 1rem;
 	background-color: #FF643B;
+}
+
+.fa-brands {
+  color: #fff;
+  font-size: 25px;
 }
