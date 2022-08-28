@@ -9,6 +9,7 @@
 body {
     font-family: 'Inter';
     font: size 18px;
+    background-color: #FF643B; 
 }
 
 .text-primary {
@@ -24,12 +25,6 @@ body {
   color: white;
   background-color: black;
   border: none;
-}
-
-.btn-link {
-  color: #FF643B;
-  font-weight: 100;
-
 }
 
 .btn-link:hover {
@@ -53,9 +48,6 @@ body {
     background-color: #ffff;
 }
 
-.container-fluid {
-  background-color: #000;
-}
 
 .dropdown-menu {
   background-color: #000;
@@ -67,12 +59,6 @@ body {
 }
 
 
-#hero {
-    width: 100%;
-    height: 100vh;
-    color: #B6B6B6
-}
-
 .heroImage{
   width: 100%;
   color: #B6B6B6;
@@ -82,7 +68,7 @@ body {
 .container {
     align-items: top;
     justify-content: left;
-    padding: 2% 2%;
+    
 
 }
 
@@ -108,93 +94,7 @@ body {
   color: #FF643B;
 }
 
-
-
-#Amenities {
-    width: 100%;
-  
-}
-
-.container2 {
-    background-color: #FF643B;
-    justify-content: flex-end;
-    padding-top:25px;
-    
-}
-
-.container2 h2{
-  font-weight: 700;
-  
-}
-
-.card-img-overlay {
-    background-color: rgba(#000, 0.6);
-  }
-  
-.container3 {
-    background-color: #000;
-    justify-content: flex-end;
-    padding: 3%;
-}
-
-.card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 1px solidrgba(0,0,0,.125);
-    border-radius: 0.25rem;
-}
-
-.card-body {
-    flex: 1 1 auto;
-    padding: 1rem 1rem;
-    background-color: #FF643B;
-}
-
-.card-img-amenities{
-    width: 335%;
-    margin-left: -17%; 
-    margin-top: 6%;
-}
-
-  .hotspot {
-    position: absolute;
-    height: 24px;
-    padding-top: 6px;
-    border-radius: 50%;
-    animation: fader 2s ease infinite;
-    transition: all 0.2s;
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: 'Inter';
-    font-size: 45px;
-    color: white;
-  }
-
-  .hotspot:hover {
-    color: #fa6400;
-  }
-
-
-  
-  #hs-danceStudio {
-    top: 147%;
-    left: 5%;
-  }
-  #hs-Equipment {
-    top: 147%;
-    left: 40%;
-  }
-  #hs-Swimming {
-    top: 147%;
-    left: 72%;
-  }
-
+ 
   .display-6{
     margin-left: 3%;
     font-family: 'Inter';
@@ -212,22 +112,9 @@ body {
 
 
 
-.titlelink {
-  justify-content: space-between;
-}
-
-
-  #newsletter {
-    width: 100%;
-
-}
-
-.card-img-newsletter{
-  height: 50%;
-}
 
 #heromembership {
-  background: url(/images/pedro-araujo-PDjYClxmnyk-unsplash\ 1.png) no-repeat center / cover;
+  background: url(../images/pedro-araujo-PDjYClxmnyk-unsplash\ 1.png) no-repeat center / cover;
   color: #B6B6B6
 }
 
@@ -245,9 +132,7 @@ body {
 }
 
 section.pricing {
-  width: 100%;
-  height: 120vh;
-  background: url(/images/pedro-araujo-PDjYClxmnyk-unsplash\ 1.png) no-repeat center / cover;
+  background: url(../images/pedro-araujo-PDjYClxmnyk-unsplash\ 1.png) no-repeat center / cover;
   
 }
 
@@ -387,7 +272,6 @@ section.pricing {
   
 }
 
-
 .pricing .btn {
   font-size: 80%;
   letter-spacing: .1rem;
@@ -415,19 +299,8 @@ section.pricing {
   margin: 10px 10px;
 }
 
-
-.nav-item {
-  margin-left: 50px;
-  padding-right: 25px;
-}
-
-.navbar-brand{
-  margin-left: 50px;
-  padding-right: 25px;
-}
-
-.nav-item-align-right{
-  margin-left: 200px;
+.news-container {
+	background-color: #FF643B;
 }
 
 .bg-dark {
@@ -435,85 +308,7 @@ section.pricing {
   height: 90px;
 }
 
-.modalTextFormat{
-  font-family: 'Inter';
-  font-weight: bold;
-  font-size: 15px;
-  color: white;
-  padding: 2%;
-}
-
-.modalHeader{
-  font-family: 'Inter';
-  font-weight: bold;
-  font-size: 35px;
-  color: white;
-  margin-left: 35%;
-}
-
-input[type=text] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: 3px solid #ccc;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  outline: none;
-}
-
-input[type=text]:focus {
-  border: 5px solid white;
-}
-
-/* .containerHeroImage{
-  position: relative;
-  text-align: center;
-  color: white;
-} */
-
-/* Centered text */
-/* .centered {
-  width: 70%;
-  position: absolute;
-  left: 35%;
-  transform: translate(-40%, -1200%);
-  text-align: justify;
-}
-
-.centered-hero-text{
-  width: 70%;
-  position: absolute;
-  left: 35%;
-  transform: translate(-40%, -3250%);
-  text-align: justify;
-} */
-
-/* Style all font awesome icons */
-.fa {
-  padding: 10px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 100px;
-}
-
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
-}
-
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-facebook {
-  background: #9F9F9F;
-  color: black;
-}
-
-/* Twitter */
-.fa-twitter {
-  background: #9F9F9F;
-  color: black;
+.fa-brands {
+  color: #fff;
+  font-size: 25px;
 }
