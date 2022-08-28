@@ -25,6 +25,7 @@ body {
 .btn-link {
 	color: #FF643B;
 	font-weight: 100;
+  text-decoration: none;
 }
 
 .btn-link:hover {
@@ -33,7 +34,7 @@ body {
 
 .btn- {
 	font-weight: 100;
-	text-decoration: underline;
+	/* text-decoration: underline; */
 }
 
 .btn-:hover {
