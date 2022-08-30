@@ -68,7 +68,6 @@ body {
 .container {
     align-items: top;
     justify-content: left;
-    
 
 }
 
@@ -312,3 +311,6 @@ section.pricing {
   color: #fff;
   font-size: 25px;
 }
+
+footer .row.text-center { 
+	width:100%; }

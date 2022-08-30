@@ -194,3 +194,6 @@ input[type=text]:focus {
   color: #fff;
   font-size: 25px;
 }
+
+footer .row.text-center { 
+	width:100%; }
